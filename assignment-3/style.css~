@@ -1,0 +1,66 @@
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+body{
+font-family:Arial;
+font-size:12px;
+line-height:18px;
+}
+.container{
+width:940px;
+margin:0px auto;
+font-family:Arial;
+}
+.header{
+background:#499bd7;
+height:176px;
+}
+.nav{
+height:60px;
+background:#d6d6d6;
+}
+.footer{
+height:66px;
+background:#eeeeee;
+}
+h1{
+line-height:125px;
+color:white;
+text-align:center;
+padding-top:25px;
+font-size:30px;
+}
+ul{
+padding:20px 12px 0px 0px;
+margin:0px;
+}
+li{
+display:inline;
+width:11px;
+padding:0px 12px 0px 0px;
+font-size:14px;
+}
+.content{
+background:#ffffff;
+}
+.img{
+padding:29px 10px 0px 0px;
+float: left;
+}
+p{
+font-size:14px;
+padding-top:29px;
+}
+a{
+text-decoration:none;
+color:black;
+padding-right:10px;
+}
+.cr{
+font-size:12px;
+float:right;
+padding-bottom:45px;
+}
+
