@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>front-page</title>
+    <link rel="stylesheet" type="text/css" href="varsha.css">
+</head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="logo"><a href="#"><img src="logo.png"></div>
+                <div class="navigation">
+                    <a href="#" id="login">LOGIN</a>
+                    <ul class="navigation">
+                        <li><a href="#" id="selected">HOME</a></li>
+                        <li><a href="#">YOUR</a></li>
+                        <li><a href="#">PRICING</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li class="clear"></li>
+                    </ul>
+                <div class="clear"></div>
+            </div>
+         </div>
+     </div>
+     <div class="banner">
+        <div class="container">
+            <div class="right">
+                <h4 class="heading">Help your employees grow into invaluable assets</h4>
+                <a href="#" class="getStarted">Get Started</a>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+       </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h1 class="heading1">Some <b>Features</b> of the Learning Management Systems</h1>
+            
+                <ul class="divv">
+                <li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+                <li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+                <li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+                <li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+ <li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+<li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+<li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+<li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+<li class="divv"><div class="rectangle"><h1>Create Course</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, elementum quis bibendum at, interdum id leo.</p></div></li>
+            <li class="clear"></li>
+            </ul>
+            <div class="clear">
+        </div>    
+        </div>
+    </body>
+</html>
