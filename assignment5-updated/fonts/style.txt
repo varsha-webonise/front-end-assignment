@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans/opensans-light-webfont.eot');
+    src: url('../fonts/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('../fonts/titillium/titillium-regular-webfont.eot');
+    src: url('../fonts/titillium/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-regular-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-regular-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titilliumbold';
+    src: url('../fonts/titillium/titillium-semibold-webfont.eot');
+    src: url('../fonts/titillium/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-semibold-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-semibold-webfont.svg#titilliumbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium_bdbold';
+    src: url('../fonts/titillium/titillium-bold-webfont.eot');
+    src: url('../fonts/titillium/titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-bold-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-bold-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('../fonts/titillium/titillium-light-webfont.eot');
+    src: url('../fonts/titillium/titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-light-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-light-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
