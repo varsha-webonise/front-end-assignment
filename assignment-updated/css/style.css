@@ -1,0 +1,420 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+    
+}
+.clear
+{
+clear:both;
+}
+
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu/ubuntulight/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans/opensans-light-webfont.eot');
+    src: url('../fonts/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('../fonts/titillium/titillium-regular-webfont.eot');
+    src: url('../fonts/titillium/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-regular-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-regular-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titilliumbold';
+    src: url('../fonts/titillium/titillium-semibold-webfont.eot');
+    src: url('../fonts/titillium/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-semibold-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-semibold-webfont.svg#titilliumbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium_bdbold';
+    src: url('../fonts/titillium/titillium-bold-webfont.eot');
+    src: url('../fonts/titillium/titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-bold-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-bold-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('../fonts/titillium/titillium-light-webfont.eot');
+    src: url('../fonts/titillium/titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium/titillium-light-webfont.woff') format('woff'),
+         url('../fonts/titillium/titillium-light-webfont.ttf') format('truetype'),
+         url('../fonts/titillium/titillium-light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+font-family:arial;
+text-decoration:none;
+}
+.container
+{
+width:940px;
+margin:0px auto;
+}
+
+.logo
+{
+float:left;
+margin-top:14px;
+}
+.navigation
+{
+font-size:16px;
+font-family:'open_sanssemibold';
+}
+
+.navigation ul
+{
+margin-top:17px;
+color:#666666;
+float:right;
+list-style-type:none;
+}
+.navigation  li
+{
+
+margin-right:36px;
+float:left;
+}
+.navigation  li a
+{
+font-size:16px;
+line-width:40px;
+//margin-top:5px;
+color:#666666;
+float:right;
+text-decoration:none;
+}
+
+#selected 
+{
+color:black;
+}
+
+#login 
+{
+margin-bottom:6px;
+text-decoration:none;
+border:2px solid #ff9900;
+color:#ff9900;
+border-radius:3px;
+font-size:14px;
+padding:8px 11px;
+float:right;
+margin-top:5px;
+font-family:'open_sanssemibold';
+}
+.banner
+{
+height:610px;
+background-image:url("../images/logo2.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.right
+{
+padding-top:52px;
+float:right;
+height:358px;
+width:406px;
+}
+
+.heading
+{
+font-family:'open_sanslight';
+color:black;
+font-size:40px;
+font-weight:lighter;
+}
+.right a.getStarted
+{
+margin-top:40px;
+font-family:'open_sansbold';
+text-align:center;
+background:#ff8a00;
+border-radius:3px;
+font-size:30px;
+color:white;
+display:inline-block;
+line-height:47px;
+text-decoration:none;
+}
+.content
+{
+background:#f0f0f0;
+padding-top:70px;
+}
+h1
+{
+ 
+  text-align:center;
+  font-weight:lighter;
+  font-size:30px; 
+  margin-bottom:41px;  
+ font-family:'ubuntubold';
+}
+.divv
+{
+     float:left;
+     list-style-type:none;
+     position:relative;
+     }
+.divv li
+{
+ float:left;
+     list-style-type:none;
+     position:relative;
+}
+.rectangle
+{
+         border:1px grey;
+         background:white;
+         width:200px;
+          margin-right:10px;
+          margin-bottom:28px;
+           padding:37px 10px 25px 10px; 
+         
+}
+
+.rectangle li
+{
+           position:relative;
+           list-style-type:none;
+           float:left;
+          
+           
+                      }
+h3
+{
+font-family:arial bold;
+font-size:14px;
+text-align:center;
+}
+.rectangle  p
+{
+padding-top:17px;
+font-size:11px;
+color:#666666;
+text-align:center;
+font-family:'arial_regular';
+           }
+
+.circle
+{
+border-radius:50%;
+width:44px;
+height:44px;
+background:#ff9900;
+margin-left:-10%;
+position:absolute;
+top:-22px;
+left:50%;
+
+}
+.footer
+{
+background:#555555;
+}
+
+
+.text
+{
+font-size:30px;
+padding-top:35px;
+color:white;
+font-family:'Titillium_Webregular';
+}
+.getStarted1
+{
+margin-top:20px;
+float:right;
+text-align:center;
+background:#ff8a00;
+//height:55px;
+//width:220px;
+border-radius:3px;
+font-size:30px;
+color:white;
+line-height:47px;
+text-decoration:none;
+margin-bottom:40px;
+font-family:'Titillium_Webbold';
+}
+
+.border1
+{
+       border:1px solid #2a2a2a;
+       
+       }
+.nav
+{
+    
+    margin-top:28px;
+}
+.nav  li
+{
+
+margin-right:36px;
+float:left;
+list-style-type:none;
+
+}
+.nav  li a
+{
+//margin-top:29px;
+color:white;
+float:left;
+text-decoration:none;
+list-style-type:none;
+font-family:Titillium_Webbold;
+}
+#id1
+{
+color:black;
+}
+
+.circle1
+{
+       float:right;
+       background:pink;
+       border-radius:50%;
+width:30px;
+height:30px;
+}
+.circle1 li
+{
+         float:right;
+         list-style-type:none;
+         margin-right:40px;
+         
+         }
+h4
+{
+          clear:both;
+          margin-top:30px;
+          color:black;
+          float:left;
+          font-weight:lighter;
+          font-family:TitilliumWeb regular;
+          }
+.terms
+{
+  color:white;
+  float:left;
+}   
+
+.terms li
+{
+       margin-left:17px;
+       float:left;
+       list-style-type:none;
+       margin-top:30px;
+       }
+.terms li a
+{
+       text-decoration:none;
+       color:white;
+       font-family:TitilliumWeb regular;
+       float:left;
+       }
+
+.circle2
+{ 
+
+ float:right;
+ margin-top:-10px;
+ 
+        }
+        
+.circle2 li{
+
+float:left;
+list-style-type:none;
+margin-left:7px;
+     
+}
+.circle2 li a
+                  {
+border-radius:50%;
+width:30px;
+height:30px;
+background:#777777;
+list-style-type:none;                      
+float:right;
+list-style-type:none;
+}
+.img
+{
+    padding:7px 7px 7px 7px;
+    
+    
+}
+
+.img2
+{
+padding:10px;
+}
