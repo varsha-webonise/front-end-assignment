@@ -1,0 +1,119 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+    
+}
+.clear
+{
+clear:both;
+float:none;
+}
+body
+{
+text-decoration:none;
+}
+
+.container
+{
+width:940px;
+margin:0px auto;
+}
+
+.logo
+{
+float:left;
+margin-top:10px;
+margin-bottom:16px;
+margin-right:72px;
+height:49px;
+width:165px;
+background-image:url("../images/logo1.png");
+background-repeat:no-repeat;
+}
+
+.icon
+{
+float:right;
+margin-top:29px;
+list-style-type:none;
+}
+
+.icon li
+{
+float:left;
+margin-left:5px;
+list-style-type:none;
+}
+
+.icon li a
+{
+height:16px;
+width:15px;
+list-style-type:none;
+float:right;
+}
+
+.icon li.nomargin
+{
+margin-left:0px;
+}
+
+.icon a.fb
+{
+background-image:url("../images/fb.png");
+background-repeat:no-repeat;
+}
+
+.icon a.tw
+{
+background-image:url("../images/twitter.png");
+background-repeat:no-repeat;
+}
+
+.nav
+{
+float:left;
+margin-top:31px;
+}
+
+.nav li
+{
+margin-right:35px;
+list-style-type:none;
+float:left;
+display:inline;
+}
+
+.nav li a
+{
+font-size:14px;
+float:left;
+color:#0077cc;
+text-decoration:none;
+font-family:arialregular;
+}
+
+.nav a.id
+{
+color:black;
+}
+
+.contact
+{
+margin-top:30px;
+float:right;
+}
+
+.contact li
+{
+margin-right:18px;
+list-style-type:none;
+float:right;
+}
+
+.contact li a
+{
+text-decoration:none;
+color:#0077cc;
+}
+
